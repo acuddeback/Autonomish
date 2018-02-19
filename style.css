@@ -1,5 +1,7 @@
 .navbar{
     background-color: #ff8586 !important;
+    margin-bottom: 15px;
+    margin-top: -100px !important;
 }
 .navbar-brand{
     color: #FFF !important;
@@ -28,4 +30,16 @@
 
 .navbar-toggler:hover{
   background-color: ecf0f1 !important;
+}
+
+.jumbotron{
+  background-color: #FFF !important;
+}
+
+.page-title{
+  margin-top: -50px  !important;
+}
+
+body{
+  color: #ff8586;
 }

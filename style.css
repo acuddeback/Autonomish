@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #ff8586 !important;
+}
+.navbar-brand{
+    color: #FFF !important;
+}
+
+.navbar .navbar-brand:hover{
+  color: #cc5b5c !important;
+}
+
+.navbar .navbar-nav li a{
+  color: #FFF !important;
+}
+
+.navbar .navbar-nav li a:hover{
+  color: #cc5b5c !important;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item{
+  color: #ff8586 !important;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+  color: #ff6c6c !important;
+  background-color: ecf0f1 !important;
+}
+
+.navbar-toggler:hover{
+  background-color: ecf0f1 !important;
+}

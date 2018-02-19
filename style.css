@@ -1,14 +1,14 @@
 .navbar{
-    background-color: #ff8586 !important;
+    background-color: #ff8586 !important; /*navbar color, also overall theme color*/
     margin-bottom: 15px;
     margin-top: -100px !important;
 }
 .navbar-brand{
-    color: #FFF !important;
+    color: #FFF !important; /*navbar text color*/
 }
 
 .navbar .navbar-brand:hover{
-  color: #cc5b5c !important;
+  color: #cc5b5c !important; /*navbar text color on hover (darker version of theme color)*/
 }
 
 .navbar .navbar-nav li a{
@@ -16,19 +16,15 @@
 }
 
 .navbar .navbar-nav li a:hover{
-  color: #cc5b5c !important;
+  color: #cc5b5c !important; /*darker version of the theme color*/
 }
 
 .navbar .nav-item .dropdown-menu .dropdown-item{
-  color: #ff8586 !important;
+  color: #ff8586 !important; /*theme color*/
 }
 
 .navbar .nav-item .dropdown-menu .dropdown-item:hover{
-  color: #ff6c6c !important;
-  background-color: ecf0f1 !important;
-}
-
-.navbar-toggler:hover{
+  color: #ff6c6c !important; /*darker version of theme color but brighter than the usual darker one*/
   background-color: ecf0f1 !important;
 }
 
@@ -37,9 +33,9 @@
 }
 
 .page-title{
-  margin-top: -50px  !important;
+  margin-top: -50px  !important; /* pushes jumbotron content closer to top of screen */
 }
 
 body{
-  color: #ff8586;
+  color: #ff8586; /*theme color*/
 }

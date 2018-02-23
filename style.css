@@ -1,6 +1,7 @@
 .navbar{
     background-color: #ff8586 !important; /*navbar color, also overall theme color*/
     margin-top: 0px;
+    height: 55px;
 
 }
 .navbar-brand{
@@ -43,6 +44,11 @@
     z-index: 100;
     position: fixed;
     width: 100%;
+    margin-bottom: 60px;
+}
+
+body .body-nav-fixed{
+  padding-top: 60px !important; /* must == navbar height*/
 }
 
 body{

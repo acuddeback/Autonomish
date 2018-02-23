@@ -12,6 +12,9 @@ $(document).ready(function() {
     if ($(window).scrollTop() < 175) { // scrollTop < must == page title height + bottom margin
       $('#nav_bar').removeClass('navbar-fixed');
     }
+    if ($(window).scrollTop() < 175) { // scrollTop < must == page title height + bottom margin
+      $('#body-main').addClass('body-nav-fixed');
+    }
   });
 });
 //End Navbar Script

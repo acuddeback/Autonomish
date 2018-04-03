@@ -37,6 +37,7 @@
   margin-top: -50px  !important; /* pushes jumbotron content closer to top of screen */
   height: 200;
   margin-bottom: -50px;
+  margin-left: auto;
 }
 
 .navbar-fixed {
@@ -45,12 +46,14 @@
     position: fixed;
     width: 100%;
     margin-bottom: 60px;
+    margin-left: -10px;
 }
 
-body .body-nav-fixed{
+.body-nav-fixed{
   padding-top: 60px !important; /* must == navbar height*/
 }
 
 body{
   color: #ff8586; /*theme color*/
+  padding-left: 10px !important;
 }

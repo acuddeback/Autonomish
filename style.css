@@ -52,5 +52,17 @@
 }
 
 body{
-  color: #ff8586; /*theme color*/
+  color: #ff6c6c !important; /*darker version of theme color but brighter than the usual darker one*/
+}
+
+.pageContent{
+  display: inline-block !important;
+  padding-left: 20px !important;
+}
+
+.blogPost{
+  display: inline-block !important;
+  padding-left: 40px !important;
+  padding-top: 40px;
+  padding-right: 60px !important;
 }
